@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Last exported: 12.12.2018 12:58:55-->
+<diff>
+	<replace sel="/wares/ware[@id='ship_gen_s_fightingdrone_01_a']/price/@min">13902</replace>
+	<replace sel="/wares/ware[@id='ship_gen_s_fightingdrone_01_a']/price/@average">17003</replace>
+	<replace sel="/wares/ware[@id='ship_gen_s_fightingdrone_01_a']/price/@max">19103</replace>
+	<replace sel="/wares/ware[@id='ship_gen_s_fightingdrone_01_a']/production[@method='default']/primary/ware[@ware='dronecomponents']/@amount">2</replace>
+	<replace sel="/wares/ware[@id='ship_gen_s_fightingdrone_01_a']/production[@method='default']/primary/ware[@ware='energycells']/@amount">100</replace>
+	<replace sel="/wares/ware[@id='ship_gen_s_fightingdrone_01_a']/production[@method='default']/primary/ware[@ware='smartchips']/@amount">30</replace>
+	<add sel="/wares/ware[@id='ship_gen_s_fightingdrone_01_a']/production[@method='default']/primary">
+		<ware ware="fieldcoils" amount="2" />
+		<ware ware="shieldcomponents" amount="5" />
+		<ware ware="hullparts" amount="5" />
+	</add>
+</diff>
